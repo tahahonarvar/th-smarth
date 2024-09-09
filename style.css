@@ -1,0 +1,141 @@
+.topnav { 
+  overflow: hidden; 
+  background-color: #0A1128;
+}
+.content { 
+  padding: 5%;
+}
+.card-grid { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  display: grid; 
+  grid-gap: 2rem; 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card { 
+  background-color: white; 
+  box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
+}
+.card-title { 
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #034078
+}
+
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.logo,h1{
+  display: flex;  
+  background-color: #222222;
+  justify-content:space-between;
+  
+}
+img{
+  width: 70px;
+  height: 70px;
+  margin: 12px;
+}
+body{
+  margin-top: 0;
+}
+.menu{
+  background-color: #299fe4;
+  height: 5px;
+}
+body {
+
+font-family: Arial, sans-serif;
+
+background-color: #222222;
+
+}
+h1 {
+color: #299fe4;
+font-size: 85px;
+}
+.data {
+font-size: 3.2vh;
+margin: 20px 0;
+}
+.healthy {
+color: #00b185;
+}
+.unhealthy,.smart{
+color: #7e1111;   
+}
+table{
+  width: 40vw;
+  font-size: 4vh;
+  color: #bad3e2;
+  margin-left: 2vw;
+  text-align: center;
+  background-color: #299fe410;
+  
+}
+table th{
+  background-color: #11657e9a;
+  
+}
+table td{
+  background-color: #299fe41f;
+  
+}
+#temperature,#humidity,#mq2Value,#aqi,#airQuality{
+color: #bad3e2;
+}
+p{
+color: #bad3e2;
+}
+
+
+@media (max-width:768px){
+
+.logo,h1{
+  display: list-item;  
+  background-color: #222222;
+  justify-content:space-between;
+  
+}
+img{
+  width: 30vw;
+  height: 15vh;
+  
+  margin: 12px;
+}
+body{
+  text-align: center;
+  margin-top: 2vh;
+}
+.menu{
+  display: none;
+}
+h1 {
+font-size: 80px;
+}
+table{
+  width: 96vw;
+  font-size: 4vh;
+  color: #bad3e2;
+  margin-left: 2vw;
+  text-align: center;
+  background-color: #299fe410;
+  
+}
+table th{
+  background-color: #11657e9a;
+}
+table td{
+  background-color: #299fe41f;
+}
+
+}

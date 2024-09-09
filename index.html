@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TH.smarth</title>
+    <link rel="website icon" type="png" href="https://uploadkon.ir/uploads/3b9006_24th.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.1.7/all/gauge.min.js"></script>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    
+      
+
+    
+    <div class="container">
+        <div class="logo">
+            <img src="https://uploadkon.ir/uploads/3b9006_24th.jpg" alt="logo">
+            
+        <h1>SMART<span class="smart">H</span></h1>
+
+        </div>
+        <div class="menu"></div>
+        
+        <div class="data">
+            <table>
+                <tr>
+                    <th>
+                        وضعیت هوا:
+                    </th>
+                    <th>
+                        <p><span id="healthStatus" class="">--</span></p> 
+                    </th>
+                </tr>
+
+
+
+
+
+                <tr>
+                    <td>
+                        دما هوا:
+                    </td>
+                    <td>
+                        <p><span id="temperature">--</span> &#8451;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        رطوبت هوا: 
+                    </td>
+                    <td>
+                        <p><span id="humidity">--</span> %</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        خروجی سنسور:  
+                    </td>
+                    <td>
+                        <p><span id="mq2Value">--</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        کیفیت هوا:
+                    </td>
+                    <td>
+                        <p><span id="airQuality">--</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        AQI: 
+                    </td>
+                    <td>
+                        <p><span id="aqi">--</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+            
+              <div class="content">
+                <div class="card-grid">
+                  <div class="card">
+                    <p class="card-title">Temperature</p>
+                    <canvas id="gauge-temperature"></canvas>
+                  </div>
+                  <div class="card">
+                    <p class="card-title">Humidity</p>
+                    <canvas id="gauge-humidity"></canvas>
+                  </div>
+                </div>
+              </div>
+            
+            
+           
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
